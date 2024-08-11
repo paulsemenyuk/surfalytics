@@ -71,7 +71,7 @@ git commit -m "Text"
 git --help
 '''
 
-In a nutshell
+### In a nutshell
 1. Save the code/file.
 2. Check status.
 3. Add file to index.
