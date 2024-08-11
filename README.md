@@ -5,71 +5,74 @@ DA/DE projects
 
 1. Clone the code from repo
 
-'''
+```bash
 git clone https://github.com/paulsemenyuk/surfalytics.git
-'''
+```
 
 2. Check the status of Git repo
 
-'''bash
+```bash
 git status
-'''
+```
 
 3. Create new branch
 
-'''bash
+```bash
 git checkout -b pash/local-branch
-'''
+```
 
 4. Move between branches or main
 
-'''bash
+```bash
 git checkout pash/local-branch
-or
+```
+  or
+
+```bash
 git checkout main
-'''
+```
 
 5. Download objects and refs from another repository
 
-'''bash
+```bash
 git fetch
-'''
+```
 
 6. Fetch from and integrate with another repository or a local branch
 
-'''bash
+```bash
 git pull
-'''
+```
 
 7. List, create, or delete branches
 
-'''bash
+```bash
 git branch -a
-'''
+```
 
 8. Update remote refs along with associated objects
 
-'''bash
+```bash
 git push
-'''
+```
 
 9. Add file contents to the index
 
-'''bash
+```bash
 git add .
-'''
+```
 
 10. Record changes to the repository
 
-'''bash
+```bash
 git commit -m "Text"
-'''
+```
 
 11. See other commands
 
-'''bash
+```bash
 git --help
-'''
+```
 
 ### In a nutshell
 1. Save the code/file.
@@ -80,6 +83,7 @@ git --help
 
 Next#. NextName
 
-'''bash
+```bash
 
-'''
+```
+```
