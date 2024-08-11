@@ -5,7 +5,7 @@ DA/DE projects
 
 1. Clone the code from repo
 
-'''bash
+'''
 git clone https://github.com/paulsemenyuk/surfalytics.git
 '''
 
