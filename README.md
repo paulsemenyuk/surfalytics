@@ -1,4 +1,4 @@
-# syrfalytics
+# Surfalytics
 DA/DE projects
 
 ## Git Commands
