@@ -56,7 +56,7 @@ git push
 9. Add file contents to the index
 
 '''bash
-git add
+git add .
 '''
 
 10. Record changes to the repository
@@ -70,6 +70,13 @@ git commit -m "Text"
 '''bash
 git --help
 '''
+
+In a nutshell
+1. Save the code/file.
+2. Check status.
+3. Add file to index.
+4. Commit with a comment.
+5. Push the file.
 
 Next#. NextName
 
