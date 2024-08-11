@@ -75,11 +75,14 @@ git --help
 ```
 
 ### In a nutshell
-1. Save the code/file.
-2. Check status.
-3. Add file to index.
-4. Commit with a comment.
-5. Push the file.
+1. Clone Prod code `git clone`.
+2. Create dev branch `git checkout -b branch-name`.
+3. Make the changes to the code.
+4. Check what we have modified `git status`.
+5. Index modified files `git add.`.
+6. ﻿﻿﻿Commit these files `git commit -m "Message"`.
+7. ﻿﻿﻿Push to remote `git push`.
+8. ﻿﻿﻿Create Pull Request for Code review `git pull`.
 
 Next#. NextName
 
