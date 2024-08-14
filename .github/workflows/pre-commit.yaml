@@ -2,7 +2,7 @@
 
 name: git add .github/workflows/ci.ymlgit add .github/workflows/ci.yml
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   pre-commit:
