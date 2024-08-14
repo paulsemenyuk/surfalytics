@@ -1,5 +1,9 @@
-# syrfalytics
+# Surfalytics
 DA/DE projects
+
+## Summary
+
+Git commands include cloning, checking status, creating branches, and committing changes. Additional commands include fetching, pulling, branching, pushing, and recording changes.
 
 ## Git Commands
 
@@ -80,13 +84,6 @@ git --help
 3. Make the changes to the code.
 4. Check what we have modified `git status`.
 5. Index modified files `git add.`.
-6. ﻿﻿﻿Commit these files `git commit -m "Message"`.
-7. ﻿﻿﻿Push to remote `git push`.
-8. ﻿﻿﻿Create Pull Request for Code review `git pull`.
-
-Next#. NextName
-
-```bash
-
-```
-```
+6. Commit these files `git commit -m "Message"`.
+7. Push to remote `git push`.
+8. Create Pull Request for Code review `git pull`.
