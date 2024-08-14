@@ -1,6 +1,10 @@
 # Surfalytics
 DA/DE projects
 
+## Summary
+
+Git commands include cloning, checking status, creating branches, and committing changes. Additional commands include fetching, pulling, branching, pushing, and recording changes.
+
 ## Git Commands
 
 1. Clone the code from repo
