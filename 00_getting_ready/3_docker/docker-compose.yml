@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    image: web-app-container:v0.1
+    ports:
+      - "80:80"
+    depends_on:
+      - redis
+  redis:
+    image: "redis:6.0"
