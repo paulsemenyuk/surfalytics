@@ -13,7 +13,6 @@ Creating a View
 Use the CREATE VIEW statement:
 
 ```sql
-Copy code
 CREATE VIEW view_name AS
 SELECT columns
 FROM tables
@@ -24,7 +23,6 @@ Scenario: Frequently retrieve employee names with their department names.
 Create the View:
 
 ```sql
-Copy code
 CREATE VIEW EmployeeDepartments AS
 SELECT
     e.first_name,
@@ -36,7 +34,6 @@ JOIN Departments d ON e.department_id = d.department_id;
 Use the View:
 
 ```sql
-Copy code
 SELECT * FROM EmployeeDepartments;
 Example 2: Restricting Data Access
 Scenario: Allow users to see employee names but not salaries.
@@ -44,7 +41,6 @@ Scenario: Allow users to see employee names but not salaries.
 Create the View:
 
 ```sql
-Copy code
 CREATE VIEW PublicEmployeeInfo AS
 SELECT first_name, last_name, department_id
 FROM Employees;
@@ -52,7 +48,6 @@ FROM Employees;
 Grant Access:
 
 ```sql
-Copy code
 GRANT SELECT ON PublicEmployeeInfo TO public_user_group;
 ```
 Example 3: Presenting Aggregated Data
@@ -61,7 +56,6 @@ Scenario: Show total employees in each department.
 Create the View:
 
 ```sql
-Copy code
 CREATE VIEW DepartmentEmployeeCounts AS
 SELECT
     d.department_name,
@@ -73,7 +67,6 @@ GROUP BY d.department_name;
 Use the View:
 
 ```sql
-Copy code
 SELECT * FROM DepartmentEmployeeCounts;
 ```
 Updating Data Through Views
@@ -82,7 +75,6 @@ Some views allow data modification if they meet certain conditions (e.g., based 
 Example:
 
 ```sql
-Copy code
 CREATE VIEW SalesTeam AS
 SELECT employee_id, first_name, last_name
 FROM Employees
@@ -91,20 +83,17 @@ WHERE department_id = 3;
 Insert Data:
 
 ```sql
-Copy code
 INSERT INTO SalesTeam (first_name, last_name)
 VALUES ('Jane', 'Smith');
 ```
 Modifying and Dropping Views
 Modify a View:
 ```sql
-Copy code
 CREATE OR REPLACE VIEW view_name AS
 SELECT columns FROM tables WHERE conditions;
 ```
 Drop a View:
 ```sql
-Copy code
 DROP VIEW view_name;
 ```
 Benefits of Using Views
@@ -132,7 +121,6 @@ Creating a Stored Procedure
 Example: Retrieve employees by department.
 
 ```sql
-Copy code
 CREATE PROCEDURE GetEmployeesByDepartment @DepartmentID INT AS
 BEGIN
     SELECT employee_id, first_name, last_name, salary
@@ -143,7 +131,6 @@ END;
 Executing the Procedure
 
 ```sql
-Copy code
 EXEC GetEmployeesByDepartment @DepartmentID = 5;
 ```
 Transactions
@@ -160,7 +147,6 @@ Using Transactions
 Example: Transfer funds between accounts.
 
 ```sql
-Copy code
 BEGIN TRANSACTION;
 
 UPDATE Accounts
@@ -180,7 +166,6 @@ Combining Stored Procedures and Transactions
 Example: Stored procedure for transferring funds safely.
 
 ```sql
-Copy code
 CREATE PROCEDURE TransferFunds
     @FromAccountID INT,
     @ToAccountID INT,
@@ -206,7 +191,6 @@ END;
 Executing the Procedure
 
 ```sql
-Copy code
 EXEC TransferFunds @FromAccountID = 1, @ToAccountID = 2, @Amount = 100.00;
 ```
 Key Takeaways
@@ -234,7 +218,6 @@ Most Common Type: Inner joins are the most frequently used joins because they re
 Syntax Example:
 
 ```sql
-Copy code
 SELECT *
 FROM table1
 INNER JOIN table2 ON table1.common_column = table2.common_column;
@@ -242,21 +225,18 @@ INNER JOIN table2 ON table1.common_column = table2.common_column;
 Outer Join: Returns all records from one table and the matched records from the second table. Unmatched records will show NULL for columns from the other table.
 Left Outer Join: Returns all records from the left table and matched records from the right table.
 ```sql
-Copy code
 SELECT *
 FROM table1
 LEFT OUTER JOIN table2 ON table1.common_column = table2.common_column;
 ```
 Right Outer Join: Returns all records from the right table and matched records from the left table.
 ```sql
-Copy code
 SELECT *
 FROM table1
 RIGHT OUTER JOIN table2 ON table1.common_column = table2.common_column;
 ```
 Full Outer Join: Returns all records when there is a match in either left or right table.
 ```sql
-Copy code
 SELECT *
 FROM table1
 FULL OUTER JOIN table2 ON table1.common_column = table2.common_column;
@@ -269,7 +249,6 @@ Example:
 Suppose you have three tables: students, enrollments, and courses. You want to list each student along with the courses they're enrolled in.
 
 ```sql
-Copy code
 SELECT
     s.student_name,
     c.course_name
@@ -287,7 +266,6 @@ You can use an alias as shorthand for table or column names, making your SQL que
 Syntax Example:
 
 ```sql
-Copy code
 SELECT
     t1.column_name,
     t2.column_name
@@ -306,7 +284,6 @@ Example:
 Find pairs of employees who work in the same department.
 
 ```sql
-Copy code
 SELECT
     e1.employee_name AS Employee1,
     e2.employee_name AS Employee2,
