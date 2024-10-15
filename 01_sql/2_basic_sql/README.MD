@@ -2,7 +2,7 @@
 
 ## A Beginner's Guide to Basic SQL with Examples
 
-Table of Contents
+## Table of Contents
 ### Selecting Data with SELECT
 ### Filtering Data with WHERE
 ### Sorting Data with ORDER BY
