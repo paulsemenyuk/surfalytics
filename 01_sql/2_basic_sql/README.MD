@@ -13,6 +13,8 @@
 ### Grouping Data with GROUP BY
 ### Filtering Groups with HAVING
 ### Next Steps
+
+## Intro
 Structured Query Language (SQL) is the standard language for interacting with relational databases. Whether you're retrieving data, inserting new records, or updating existing ones, SQL provides the tools you need. This guide introduces the basic SQL commands with practical examples to help you get started.
 
 ## 1. Selecting Data with SELECT
@@ -180,7 +182,8 @@ GROUP BY department_id
 HAVING COUNT(*) > 5;
 ```
 ## 10. Next Steps
-This guide covers the fundamental SQL commands for basic data manipulation and retrieval. For more advanced topics like joins, subqueries, and transactions, stay tuned for our upcoming articles on Advanced SQL.
+This guide covers the fundamental SQL commands for basic data manipulation and retrieval.
+For more advanced topics like joins, subqueries, and transactions follow the link to Advanced SQL: https://github.com/paulsemenyuk/surfalytics/tree/58c3eacb885538cfa5bd971f66cceb8bbe68ae92/01_sql/3_advanced_sql .
 
 Conclusion
 
