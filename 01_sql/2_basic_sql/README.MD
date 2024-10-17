@@ -3,16 +3,27 @@
 ## A Beginner's Guide to Basic SQL with Examples
 
 ## Table of Contents
-### Selecting Data with SELECT
-### Filtering Data with WHERE
-### Sorting Data with ORDER BY
-### Inserting Data with INSERT INTO
-### Updating Data with UPDATE
-### Deleting Data with DELETE
-### Using Aggregate Functions
-### Grouping Data with GROUP BY
-### Filtering Groups with HAVING
-### Next Steps
+### Intro
+
+### 1. Selecting Data with SELECT
+
+### 2. Filtering Data with WHERE
+
+### 3. Sorting Data with ORDER BY
+
+### 4. Inserting Data with INSERT INTO
+
+### 5. Updating Data with UPDATE
+
+### 6. Deleting Data with DELETE
+
+### 7. Using Aggregate Functions
+
+### 8. Grouping Data with GROUP BY
+
+### 9. Filtering Groups with HAVING
+
+### 10. Next Steps
 
 ## Intro
 Structured Query Language (SQL) is the standard language for interacting with relational databases. Whether you're retrieving data, inserting new records, or updating existing ones, SQL provides the tools you need. This guide introduces the basic SQL commands with practical examples to help you get started.

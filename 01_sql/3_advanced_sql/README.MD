@@ -1,5 +1,32 @@
 # Advanced SQL
 
+## Table of Content
+### I. Views in SQL
+
+	1.	Introduction to SQL Views
+	2.	Creating and Using Views
+	3.	Updating, Modifying, and Dropping Views
+	4.	Benefits of Views
+
+### II. Stored Procedures and Transactions
+
+	1.	Overview of Stored Procedures
+	2.	Creating and Executing Procedures
+	3.	Understanding Transactions and ACID Properties
+	4.	Using Transactions: Fund Transfer Example
+	5.	Combining Procedures with Transactions
+
+### III. Joins in SQL
+
+	1.	Overview of Joins
+	2.	Types of Joins (Inner, Left, Right, Full)
+	3.	Joining Multiple Tables
+	4.	Using Aliases
+	5.	Self-Joins
+	6.	Conclusion on SQL Joins
+
+### IV. Practive Lab (JOINS)
+
 ## I. Views in SQL
 An Introduction to SQL Views with Practical Examples
 
@@ -307,3 +334,12 @@ Joining multiple tables involves adding more join clauses to your SQL statement.
 Aliases simplify your queries and make them more readable.
 Self-joins enable you to compare rows within the same table.
 By mastering these concepts, you can efficiently retrieve and manipulate data across complex relational database structures.
+
+## IV. Practive Lab (JOINS)
+https://tinyurl.com/yjhsun8e
+
+Author
+Ramesh Sannareddy
+
+Contribtuor
+Rav Ahuja
