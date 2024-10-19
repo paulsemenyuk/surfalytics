@@ -1,6 +1,6 @@
 # What will you need to ger started?
 
-## - Full SQL syntax
+## - Full SQL syntax chratsheet
 Example - https://learnsql.com/blog/ultimate-sql-cheat-sheet/All-sql-cheat-sheet-a4.pdf
 
 ## - Free Universal DB Tool
