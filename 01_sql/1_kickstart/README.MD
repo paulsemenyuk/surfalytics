@@ -1,7 +1,7 @@
 # What will you need to ger started?
 
-## - Basic SQL syntax
-Example - https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf
+## - Full SQL syntax
+Example - https://learnsql.com/blog/ultimate-sql-cheat-sheet/All-sql-cheat-sheet-a4.pdf
 
 ## - Free Universal DB Tool
 DBeaver Community Edition
