@@ -1,4 +1,4 @@
-Event Participation by Athlete (Sports Industry)
+Task 1. Event Participation by Athlete (Sports Industry)
 
 Problem Statement
 You are tracking athletes and their participation in sporting events. The company wants to analyze the number of events each athlete has participated in over time. You have the following tables:
@@ -30,6 +30,7 @@ For each athlete, calculate the cumulative number of events they have participat
 
 SELECT A.name, E.event_id, count(E.event_id) OVER (PARTITION BY athlete_id ORDER BY event_date), E.event_date FROM athletes as A left join events as E on A.athlete_id=E.athlete_id
 GPT:
+
 SELECT
     a.athlete_id,
     a.name,
@@ -69,7 +70,52 @@ For each customer, calculate:
 - The most recent purchase date for each customer.
 - Display the results ordered by average purchase value in descending order.
 
-SEELECT customer_id, AVG(purchase_amount) as AVG_purchs, MAX(purchase_date) as recent_purchase
+Solution:
+SEELECT
+    customer_id,
+    AVG(purchase_amount) as AVG_purchs,
+    MAX(purchase_date) as recent_purchase
 FROM purchases
 GROUP BY customer_id
 ORDER BY AVG_purchs DESC
+
+
+Task 3.
+
+Assume you're given two tables containing data about Facebook Pages and their respective likes (as in "Like a Facebook Page").
+
+Write a query to return the IDs of the Facebook pages that have zero likes. The output should be sorted in ascending order based on the page IDs.
+
+pages Table:
+
+Column Name	Type
+page_id	integer
+page_name	varchar
+pages Example Input:
+
+page_id	page_name
+20001	SQL Solutions
+20045	Brain Exercises
+20701	Tips for Data Analysts
+page_likes Table:
+
+Column Name	Type
+user_id	integer
+page_id	integer
+liked_date	datetime
+page_likes Example Input:
+
+user_id	page_id	liked_date
+111	20001	04/08/2022 00:00:00
+121	20045	03/12/2022 00:00:00
+156	20001	07/25/2022 00:00:00
+
+Solution:
+SELECT
+  p.page_id
+FROM pages p
+FULL OUTER JOIN page_likes pl
+  on p.page_id=pl.page_id
+where liked_date is NULL
+ORDER BY p.page_id
+LIMIT 5;
