@@ -23,6 +23,7 @@ For each customer, calculate:
 - Display the results ordered by average purchase value in descending order.
 
 Solution:
+```sql
 SEELECT
     customer_id,
     AVG(purchase_amount) as AVG_purchs,
@@ -30,3 +31,4 @@ SEELECT
 FROM purchases
 GROUP BY customer_id
 ORDER BY AVG_purchs DESC
+```
