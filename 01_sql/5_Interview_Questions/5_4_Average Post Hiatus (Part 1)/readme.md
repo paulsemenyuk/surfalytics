@@ -83,3 +83,8 @@ GROUP BY user_id
 HAVING COUNT(post_id) >1
 ;
 ```
+
+Output
+user_id	days_between
+151652	307
+661093	206
