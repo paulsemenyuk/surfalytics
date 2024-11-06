@@ -196,6 +196,9 @@ HAVING COUNT(*) > 5;
 This guide covers the fundamental SQL commands for basic data manipulation and retrieval.
 For more advanced topics like joins, subqueries, and transactions follow the link to Advanced SQL: https://github.com/paulsemenyuk/surfalytics/tree/58c3eacb885538cfa5bd971f66cceb8bbe68ae92/01_sql/3_advanced_sql .
 
+Or try
+https://sqlbolt.com or https://solhsa.com/g3/
+
 Conclusion
 
 These basic SQL commands form the foundation for interacting with relational databases. By mastering them, you can perform essential data operations and build more complex queries as you advance.
