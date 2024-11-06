@@ -46,3 +46,8 @@ ORDER BY mnth;
 ```
 
 Output:
+mnth	product	avg_stars
+8	50001	4.00
+9	69852	2.00
+10	50001	3.00
+10	69852	3.50
