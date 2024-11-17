@@ -68,6 +68,10 @@ SELECT first_name, last_name, salary
 FROM Employees
 WHERE salary > 50000;
 ```
+
+Better example of 5 Ways To Filter Data With WHERE in SQL
+https://datalemur.com/sql-tutorial/sql-filter-data
+
 ## 3. Sorting Data with ORDER BY
 The ORDER BY clause sorts the result set in ascending (ASC) or descending (DESC) order.
 
