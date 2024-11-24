@@ -27,15 +27,3 @@ user_id	page_id	liked_date
 111	20001	04/08/2022 00:00:00
 121	20045	03/12/2022 00:00:00
 156	20001	07/25/2022 00:00:00
-
-Solution:
-```sql
-SELECT
-  p.page_id
-FROM pages p
-FULL OUTER JOIN page_likes pl
-  on p.page_id=pl.page_id
-where liked_date is NULL
-ORDER BY p.page_id
-LIMIT 5;
-```
