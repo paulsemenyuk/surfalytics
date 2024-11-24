@@ -1,3 +1,5 @@
+-- My solution
+
 WITH employee_queries AS (
   SELECT
     e.employee_id,
