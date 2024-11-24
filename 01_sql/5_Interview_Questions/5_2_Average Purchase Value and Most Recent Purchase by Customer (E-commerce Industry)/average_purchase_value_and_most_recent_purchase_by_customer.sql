@@ -1,4 +1,4 @@
---- Solution
+--- Solution:
 
 SEELECT
     customer_id,
