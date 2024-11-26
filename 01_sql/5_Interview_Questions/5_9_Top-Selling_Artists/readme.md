@@ -121,3 +121,9 @@ FROM (
   FROM concerts) AS subquery
 WHERE ranked_concerts = 1
 ORDER BY revenue_per_member DESC;
+
+Interpreting the results:
+
+Beyonce earned a staggering $750,000 in revenue with 1 member, resulting in a revenue per member of $750,000. She holds the top spot in the R&B genre.
+Ariana Grande secured the top position in the Pop genre, generating $720,000 in concert revenue with 1 member, resulting in a revenue per member of $720,000.
+Eminem takes the lead in the Hip-Hop genre, amassing $620,000 in concert revenue with 1 member, leading to a revenue per member of $620,000.
