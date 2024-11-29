@@ -1,5 +1,12 @@
 -- Task 1 Solution
 
--- Task 2 Solution
-
--- Task 3 Solution
+SELECT
+  Year,
+  Country,
+  Performer,
+  Points,
+  Place
+FROM `*.november24_test_eurovision.eurovision_1`
+WHERE Place NOT LIKE '1 %'
+ORDER BY Points DESC
+LIMIT 5;
