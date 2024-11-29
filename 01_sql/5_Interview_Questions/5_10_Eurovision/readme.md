@@ -1,10 +1,10 @@
 # Eurovision Song Contest Project (SQL) and Google Sheets
 
 ### Table of content:
-### Intro
-### Resources
-### SQL Tasks
-### Google Sheets Tasks
+### I. Intro
+### II. Resources
+### III. SQL Tasks
+### IV. Google Sheets Tasks
 
 ## Intro
 
