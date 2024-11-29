@@ -1,10 +1,12 @@
+## SQL Window Function interview questions
+
 Here's 4 real SQL Window Function interview questions from Uber, Google, Spotify & Wayfair, to practice commands like:
- • LEAD()
-• LAG()
-• RANK()
-• DENSE_RANK()
-• ROW_NUMBER()
-• NTH_VALUE()
+# • LEAD()
+# • LAG()
+# • RANK()
+# • DENSE_RANK()
+# • ROW_NUMBER()
+# • NTH_VALUE()
 
 𝐔𝐛𝐞𝐫 𝐒𝐐𝐋 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧
 
