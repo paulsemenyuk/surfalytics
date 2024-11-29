@@ -34,8 +34,11 @@ Song - String
 ## SQL Tasks
 
 I've added the dataset as a new table to BigQuery and followed the questions to write SQL querries.
+Data is cleaned, however I was testing it for accuracy while wrighting the code to avoid duplicates, NULL, etc.
+
 Source in Ukrainian:
 https://www.youtube.com/watch?v=i-AYiadCv3o
+
 1.	00:07:15 - SQL Task #1: Eurovision Winners Table
 2.	00:11:49 - SQL Task #2: Top Countries by Number of Wins
 3.	00:16:54 - SQL Task #3: Who Has Won More Than Once?
