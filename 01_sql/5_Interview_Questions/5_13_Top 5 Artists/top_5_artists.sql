@@ -1,4 +1,26 @@
---Solution
+-- SImplified SOlution
+
+With top_10_cte as (
+  SELECT
+    a.artist_name,
+    DENSE_RANK() OVER (
+     ORDER BY count(s.song_id) DESC) as artist_rank
+  FROM artists as a
+  INNER JOIN songs as s
+    on a.artist_id=s.artist_id
+  INNER JOIN global_song_rank as g
+    on s.song_id=g.song_id
+  where g.rank <= 10
+  group by a.artist_name
+  )
+SELECT
+  artist_name,
+  artist_rank
+FROM top_10_cte
+WHERE artist_rank <= 5
+;
+
+-- Solution
 
 
 WITH Top10Songs AS (
