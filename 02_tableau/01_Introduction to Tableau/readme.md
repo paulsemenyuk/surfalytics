@@ -51,7 +51,7 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 | 12. Status bar | Displays data about the user, if signed into a Tableau site. |
 
 ### Browser Environment
-!(https://github.com/paulsemenyuk/surfalytics/blob/main/02_tableau/01_Introduction%20to%20Tableau/From%20the%20Browser.png)
+![02_tableau/01_Introduction to Tableau/From the Browser.png](https://github.com/paulsemenyuk/surfalytics/blob/main/02_tableau/01_Introduction%20to%20Tableau/From%20the%20Browser.png)
 | **Term** | **Description** |
 |-----------|-----------------|
 | 1. Data pane | Includes dimensions and measures, populated from your selected data source. May also include calculated fields, parameters, or sets. |
