@@ -1,4 +1,4 @@
-A Beginner’s Guide to Data Visualization
+# Tableau
 
 In today’s data-driven world, making sense of complex information is more critical than ever. Tableau, a leading data visualization tool, empowers users to transform raw data into interactive, meaningful insights. Whether you’re a seasoned analyst or just stepping into the world of data, Tableau offers intuitive features to unlock the power of your data.
 
@@ -29,3 +29,5 @@ Start by downloading Tableau Public (a free version) or opt for a trial of Table
 Conclusion
 
 Tableau bridges the gap between raw data and actionable insights. Its versatility, simplicity, and power make it a must-have tool for anyone looking to harness the potential of data visualization. Whether you’re exploring trends, identifying opportunities, or making data-driven decisions, Tableau has you covered.
+
+Next topic "Intro to Tableau" here --> https://github.com/paulsemenyuk/surfalytics/tree/main/02_tableau/01_Introduction%20to%20Tableau
