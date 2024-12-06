@@ -34,7 +34,7 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 ## Application Terminology
 
 ### Desktop Application
-
+![02_tableau/01_Introduction to Tableau/From the Desktop Application.png](https://github.com/paulsemenyuk/surfalytics/blob/main/02_tableau/01_Introduction%20to%20Tableau/From%20the%20Desktop%20Application.png)
 | **Term** | **Description** |
 |-----------|-----------------|
 | 1. Go to Start Page | Toggle between the active sheet and the Desktop Start Page. |
