@@ -34,23 +34,37 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 ## Application Terminology
 
 ### Desktop Application
-| **Term**         | **Description**                                                                          |
-|------------------|------------------------------------------------------------------------------------------|
-| Go to Start Page | Toggle between your workbook and Tableau's Start Page.                                  |
-| Data Pane       | Lists dimensions, measures, and calculated fields for your data source.                 |
-| Analytics Pane  | Tools for adding reference lines, trends, forecasts, and more.                           |
-| Rows and Columns Shelves | Drag fields here to shape your visualization layout. |
-| View Cards      | Modify your worksheet, from formatting to filters.                                       |
-| Worksheet Tabs  | Navigate between different worksheets, dashboards, or stories.                           |
+
+| **Term** | **Description** |
+|-----------|-----------------|
+| 1. Go to Start Page | Toggle between the active sheet and the Desktop Start Page. |
+| 2. Data pane | Includes dimensions and measures, populated from your selected data source. May also include calculated fields, parameters, or sets. |
+| 3. Analytics pane | Includes options you can use to apply reference lines, forecasts, trend lines, to add totals to crosstabs, and to build boxplots. |
+| 4. Workbook name | The file name of your workbook. |
+| 5. View cards | Used for modifying the worksheet. |
+| 6. Toolbar icons | Icons are available for quick access to popular features. |
+| 7. Rows and Columns shelves | Drag fields here to add them to the visualization. |
+| 8. Worksheet/View | Workspace for building your visualizations. |
+| 9. Go to Data Source | Returns you to the data source specification page. |
+| 10. Worksheet tabs | Click to view a specific worksheet, dashboard, or story. |
+| 11. New Worksheet, Dashboard, and Story tabs | Click to create a new Worksheet, Dashboard, or Story. |
+| 12. Status bar | Displays data about the user, if signed into a Tableau site. |
 
 ### Browser Environment
-| **Term**         | **Description**                                                                          |
-|------------------|------------------------------------------------------------------------------------------|
-| Data Pane       | Lists dimensions, measures, and calculated fields for your data source.                 |
-| Analytics Pane  | Tools for adding reference lines, trends, and more.                                       |
-| Publish Button  | Lets you publish your workbook to a project on the site.                                 |
-| Go to Data Source| Returns you to the data source specification page.                                       |
-| Worksheet Tabs  | Click to view a specific worksheet, dashboard, or story.                               |
+
+| **Term** | **Description** |
+|-----------|-----------------|
+| 1. Data pane | Includes dimensions and measures, populated from your selected data source. May also include calculated fields, parameters, or sets. |
+| 2. Analytics pane | Includes options you can use to apply reference lines, trend lines, to add totals to crosstabs, and to build boxplots. |
+| 3. View cards | Used for modifying the worksheet. |
+| 4. Toolbar icons | Icons are available for quick access to popular features. |
+| 5. Rows and Columns shelves | Drag fields here to add them to the visualization. |
+| 6. Workbook name | The name of your workbook. |
+| 7. Worksheet/View | Workspace for building your visualizations. |
+| 8. Publish button | Lets you publish your workbook to a project on the site. |
+| 9. Go to Data Source | Returns you to the data source specification page. |
+| 10. Worksheet tabs | Click to view a specific worksheet, dashboard, or story. |
+| 11. New Worksheet, Dashboard, and Story tabs | Click to create a new Worksheet, Dashboard, or Story. |
 
 ---
 
