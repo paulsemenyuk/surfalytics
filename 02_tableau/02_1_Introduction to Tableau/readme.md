@@ -1,16 +1,17 @@
 # Intro to Tableau
 
-Table of Contents
-	1.	Introduction to Tableau
-	2.	Key Features of Tableau
-	•	Connect to Data
-	•	Build Visualizations
-	•	Share Insights
-	3.	Application Terminology
-	•	Desktop Application
-	•	Browser Environment
-	4.	Visual Cues in Tableau
-	5.	Getting Started with Tableau
+# Table of Contents
+
+1. Introduction to Tableau
+2. Key Features of Tableau
+   - Connect to Data
+   - Build Visualizations
+   - Share Insights
+3. Application Terminology
+   - Desktop Application
+   - Browser Environment
+4. Visual Cues in Tableau
+5. Getting Started with Tableau
 
 # Introduction to Tableau
 
@@ -95,3 +96,5 @@ Additional resources:
 Whether you're a Creator working with complex datasets or an Explorer focusing on visualization, Tableau provides a scalable platform to suit your role. Begin by exploring the Start Page, experimenting with data connections, and leveraging visual cues to build dynamic dashboards.
 
 By mastering these essentials, Tableau can become an indispensable tool in your analytics toolkit. Dive in, and start turning data into actionable insights today!
+
+Next topic: Connect to Data
