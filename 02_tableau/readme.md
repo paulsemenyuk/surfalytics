@@ -30,4 +30,4 @@ Conclusion
 
 Tableau bridges the gap between raw data and actionable insights. Its versatility, simplicity, and power make it a must-have tool for anyone looking to harness the potential of data visualization. Whether you’re exploring trends, identifying opportunities, or making data-driven decisions, Tableau has you covered.
 
-Next topic "Intro to Tableau" here --> https://github.com/paulsemenyuk/surfalytics/tree/main/02_tableau/01_Introduction%20to%20Tableau
+Next topic "Intro to Tableau" here --> https://github.com/paulsemenyuk/surfalytics/tree/main/02_tableau/02_1_Introduction%20to%20Tableau
