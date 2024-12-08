@@ -1,5 +1,0 @@
-# Resources
-
-### Materials .zip
-Link:
-[]
