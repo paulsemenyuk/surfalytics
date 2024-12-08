@@ -20,17 +20,17 @@ Tableau is a business intelligence (BI) platform designed to create visualizatio
 - **Storytelling**: Craft compelling narratives with data using Tableau’s Story Points feature.
 - **Mobile Compatibility**: Access dashboards on the go with mobile-friendly designs.
 
-Applications
+## Applications
 
 From sales performance tracking to customer segmentation and beyond, Tableau is widely used across industries like retail, finance, healthcare, and technology. Its flexibility makes it an invaluable tool for decision-making and strategy formulation.
 
-Getting Started
+## Getting Started
 
 Start by downloading Tableau Public (a free version) or opt for a trial of Tableau Desktop. Familiarize yourself with its interface, and experiment with sample datasets to explore its capabilities.
 
-Conclusion
+## Resources
 
-Tableau bridges the gap between raw data and actionable insights. Its versatility, simplicity, and power make it a must-have tool for anyone looking to harness the potential of data visualization. Whether you’re exploring trends, identifying opportunities, or making data-driven decisions, Tableau has you covered.
+Download .zip file with all the resources that you will need to practice.
 
 ### Next topic "Intro to Tableau"
 here --> https://github.com/paulsemenyuk/surfalytics/blob/main/02_tableau/02_1_Introduction%20to%20Tableau/readme.md
