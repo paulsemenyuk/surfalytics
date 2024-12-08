@@ -2,21 +2,23 @@
 
 In today’s data-driven world, making sense of complex information is more critical than ever. Tableau, a leading data visualization tool, empowers users to transform raw data into interactive, meaningful insights. Whether you’re a seasoned analyst or just stepping into the world of data, Tableau offers intuitive features to unlock the power of your data.
 
-What is Tableau?
+## What is Tableau?
 
 Tableau is a business intelligence (BI) platform designed to create visualizations, dashboards, and reports from a variety of data sources. Its drag-and-drop interface and interactive design make it accessible for users of all skill levels. The tool supports connections to spreadsheets, databases, cloud services, and more, allowing seamless integration with your existing data ecosystem.
 
-Why Use Tableau?
-	1.	Ease of Use: Tableau’s user-friendly interface enables you to build charts and dashboards without requiring extensive coding skills.
-	2.	Real-Time Analysis: With live connections to your data, Tableau allows for real-time updates, ensuring that your insights are always up to date.
-	3.	Customization: Tailor visualizations to suit your audience, making your presentations both impactful and engaging.
-	4.	Scalability: Tableau serves individual users with Tableau Desktop and scales up to organizations with Tableau Server and Tableau Cloud.
+## Why Use Tableau?
 
-Key Features
-	•	Interactive Dashboards: Combine multiple charts and visualizations into a single, interactive view.
-	•	Data Blending: Merge data from various sources to create unified reports.
-	•	Storytelling: Craft compelling narratives with data using Tableau’s Story Points feature.
-	•	Mobile Compatibility: Access dashboards on the go with mobile-friendly designs.
+1. **Ease of Use**: Tableau’s user-friendly interface enables you to build charts and dashboards without requiring extensive coding skills.
+2. **Real-Time Analysis**: With live connections to your data, Tableau allows for real-time updates, ensuring that your insights are always up to date.
+3. **Customization**: Tailor visualizations to suit your audience, making your presentations both impactful and engaging.
+4. **Scalability**: Tableau serves individual users with Tableau Desktop and scales up to organizations with Tableau Server and Tableau Cloud.
+
+## Key Features
+
+- **Interactive Dashboards**: Combine multiple charts and visualizations into a single, interactive view.
+- **Data Blending**: Merge data from various sources to create unified reports.
+- **Storytelling**: Craft compelling narratives with data using Tableau’s Story Points feature.
+- **Mobile Compatibility**: Access dashboards on the go with mobile-friendly designs.
 
 Applications
 
