@@ -17,7 +17,7 @@
 
 Tableau is a robust end-to-end data and analytics platform designed to help users connect to data, create insightful visualizations, and share their findings effortlessly. Its flexibility makes it suitable for various user environments, whether you're working on Tableau Desktop or leveraging the browser-based platform.
 
-![02_tableau/01_Introduction to Tableau/The Tableau Platform.png](https://github.com/paulsemenyuk/surfalytics/blob/2ecc36a9f7ae46d989f5089e508a90609476c280/02_tableau/01_Introduction%20to%20Tableau/The%20Tableau%20Platform.png)
+![02_tableau/01_Introduction to Tableau/The Tableau Platform.png](<images/The Tableau Platform.png>)
 
 ## Key Features of Tableau
 
@@ -36,7 +36,7 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 
 ### Desktop Application
 
-![Desktop Application](<From the Desktop Application.jpeg>)
+![Desktop Application](<images/From the Desktop Application.jpeg>)
 
 | **Term** | **Description** |
 |-----------|-----------------|
@@ -54,7 +54,7 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 
 ### Browser Environment
 
-![Browser Environment](<From the Browser.jpeg>)
+![Browser Environment](<images/From the Browser.jpeg>)
 
 | **Term** | **Description** |
 |-----------|-----------------|
@@ -79,17 +79,17 @@ Understanding Tableau’s visual cues helps streamline your workflow. Tableau di
 ### Modifiers
 The following table explains how each of the field icons displayed in the Data pane can be modified by one of four indicators:
 
-![Modifiers](Modifiers.png)
+![Modifiers](images/Modifiers.png)
 
 ### Fields in the Data Pane
 These are the primary fields you will see in the Data pane. For a complete list, see the topic "Visual Cues
 and Icons in Tableau Desktop" in the Tableau Desktop Help menu.
 
-![Fields in the Data Pane](<Fields in the Data Pane.png>)
+![Fields in the Data Pane](<images/Fields in the Data Pane.png>)
 
 ### Fields on Shelves
 
-![Fields on Shelves](<Fields on Shelves.png>)
+![Fields on Shelves](<images/Fields on Shelves.png>)
 
 ---
 Additional resources:
