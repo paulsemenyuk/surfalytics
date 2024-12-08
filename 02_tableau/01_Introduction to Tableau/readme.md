@@ -69,17 +69,27 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 
 ## Visual Cues in Tableau
 
-Understanding Tableau’s visual cues helps streamline your workflow:
+Understanding Tableau’s visual cues helps streamline your workflow. Tableau displays the following visual cues in the Data pane and the view.
 
-| **Icon/Visual Cue**  | **Description**                                      |
-|----------------------|----------------------------------------------------------|
-| Blue Fields         | Indicate discrete data (categorical).                  |
-| Green Fields        | Indicate continuous data (numerical).                  |
-| Exclamation Mark    | Flags invalid fields requiring attention.             |
-| Delta Icon         | Denotes a table calculation is applied.               |
+### Modifiers
+The following table explains how each of the field icons displayed in the Data pane can be modified by one of four indicators:
+
+![Modifiers](Modifiers.png)
+
+### Fields in the Data Pane
+These are the primary fields you will see in the Data pane. For a complete list, see the topic "Visual Cues
+and Icons in Tableau Desktop" in the Tableau Desktop Help menu.
+
+![Fields in the Data Pane](<Fields in the Data Pane.png>)
+
+### Fields on Shelves
+
+![Fields on Shelves](<Fields on Shelves.png>)
 
 ---
-
+Additional resources:
+1. https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles.htm
+2. https://www.tableau.com/learn/get-started/data-structure
 ## Getting Started with Tableau
 
 Whether you're a Creator working with complex datasets or an Explorer focusing on visualization, Tableau provides a scalable platform to suit your role. Begin by exploring the Start Page, experimenting with data connections, and leveraging visual cues to build dynamic dashboards.
