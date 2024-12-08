@@ -97,4 +97,5 @@ Whether you're a Creator working with complex datasets or an Explorer focusing o
 
 By mastering these essentials, Tableau can become an indispensable tool in your analytics toolkit. Dive in, and start turning data into actionable insights today!
 
-Next topic: Connect to Data
+Next topic: Connecting to Data
+https://github.com/paulsemenyuk/surfalytics/tree/main/02_tableau/02_2_Connecting%20to%20Data
