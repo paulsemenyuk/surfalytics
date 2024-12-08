@@ -35,7 +35,9 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 ## Application Terminology
 
 ### Desktop Application
-![02_tableau/01_Introduction to Tableau/From the Desktop Application.png](https://github.com/paulsemenyuk/surfalytics/blob/main/02_tableau/01_Introduction%20to%20Tableau/From%20the%20Desktop%20Application.jpeg)
+
+![Desktop Application](<From the Desktop Application.jpeg>)
+
 | **Term** | **Description** |
 |-----------|-----------------|
 | 1. Go to Start Page | Toggle between the active sheet and the Desktop Start Page. |
@@ -51,7 +53,9 @@ With a simple click, publish your workbooks to Tableau Server or Tableau Cloud f
 | 11. New Worksheet, Dashboard, and Story tabs | Click to create a new Worksheet, Dashboard, or Story. |
 
 ### Browser Environment
-![02_tableau/01_Introduction to Tableau/From the Browser.png](https://github.com/paulsemenyuk/surfalytics/blob/main/02_tableau/01_Introduction%20to%20Tableau/From%20the%20Browser.jpeg)
+
+![Browser Environment](<From the Browser.jpeg>)
+
 | **Term** | **Description** |
 |-----------|-----------------|
 | 1. Data pane | Includes dimensions and measures, populated from your selected data source. May also include calculated fields, parameters, or sets. |
