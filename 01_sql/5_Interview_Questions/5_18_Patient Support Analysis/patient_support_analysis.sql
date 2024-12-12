@@ -32,8 +32,8 @@ WITH count_cte AS (
     call_duration_secs > 0
   GROUP BY
     policy_holder_id
-    HAVING
-        calls >= 3
+  HAVING
+      COUNT(case_id) >= 3
   ORDER BY
     policy_holder_id
 )
