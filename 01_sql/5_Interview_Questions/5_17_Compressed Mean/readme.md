@@ -60,7 +60,5 @@ The arithmetic mean is calculated as follows:
 4. **Round to 1 Decimal Place**:
    The result is \(2.7\).
 
----
-
 ## Note:
 The dataset you are querying against may have different input and output, but the approach remains the same.
