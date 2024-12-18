@@ -1,3 +1,5 @@
+-- Solution
+
 select
     recipient,
     sum (weight_kg)
