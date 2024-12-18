@@ -12,8 +12,8 @@ Which ski resorts had snowfall greater than 50 inches?
 
 ---
 
-### **Question Level of Difficulty:**
-![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg)
+### **Question Level of Difficulty:** **Easy**
+![GrinchGray](https://www.sqlcalendar.com/grinch.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg)
 
 ---
 
