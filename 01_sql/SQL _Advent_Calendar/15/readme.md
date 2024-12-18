@@ -31,7 +31,7 @@ A family reunion is being planned, and the organizer wants to identify the three
 
 ---
 
-### **Question Level of Difficulty:**
+### **Question Level of Difficulty:** **Hard**
 ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![Grinch](https://www.sqlcalendar.com/grinch.svg)
 
 ---
