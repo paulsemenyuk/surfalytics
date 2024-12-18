@@ -31,6 +31,5 @@ List the **customer names** and the **number of distinct activities** they rente
 
 ---
 
-#### **Difficulty Level:**
-**Medium**
+#### **Difficulty Level:** **Medium**
 ![Grinch](https://www.sqlcalendar.com/grinch.svg)![Grinch](https://www.sqlcalendar.com/grinch.svg)![GrayGrinch](https://www.sqlcalendar.com/grinchGray.svg)
