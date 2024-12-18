@@ -30,7 +30,7 @@ A collector wants to identify the top 3 snow globes with the highest number of f
 ---
 
 ### **Question Level of Difficulty:** **Hard**
-![Grinch](https://www.sqlcalendar.com/grinch.svg)![GrayGrinch](https://www.sqlcalendar.com/grinchGray.svg)![Grinch](https://www.sqlcalendar.com/grinch.svg)
+![Grinch](https://www.sqlcalendar.com/grinch.svg)![Grinch](https://www.sqlcalendar.com/grinch.svg)![Grinch](https://www.sqlcalendar.com/grinch.svg)
 
 
 ---
