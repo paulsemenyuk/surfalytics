@@ -9,7 +9,7 @@ FROM
 GROUP BY
     recipient_type;
 
-//*ROUND(SUM(weight_kg) * 100.0 / (SELECT SUM(weight_kg) FROM gifts), 2) AS weight_percentage.
+/*ROUND(SUM(weight_kg) * 100.0 / (SELECT SUM(weight_kg) FROM gifts), 2) AS weight_percentage.
 
 # Breaking Down the Query Step by Step
 
@@ -75,3 +75,4 @@ GROUP BY
 |----------------|--------------|-------------------|
 | good           | 4.0          | 54.79            |
 | naughty        | 3.3          | 45.21            |
+*/
