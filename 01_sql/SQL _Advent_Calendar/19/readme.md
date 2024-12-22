@@ -23,7 +23,7 @@ Scientists are studying the diets of polar bears. Write a query to find the maxi
 
 ---
 
-### Question Level of Difficulty:**Medium**
+### Question Level of Difficulty: **Medium**
 ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg)
 
 
