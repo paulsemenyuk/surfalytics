@@ -21,10 +21,10 @@ We are looking for cheap gifts at the market. Which vendors are selling items pr
 
 ---
 
-### **Question Level of Difficulty:**
+### **Question Level of Difficulty:****Easy**
 ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg)
 
-**Easy**
+
 
 ---
 
