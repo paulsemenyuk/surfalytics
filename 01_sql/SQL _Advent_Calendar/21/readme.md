@@ -15,10 +15,8 @@ Santa needs to optimize his sleigh for Christmas deliveries. Write a query to ca
 
 ---
 
-### **Question Level of Difficulty:**
+### **Question Level of Difficulty:** **Hard**
 ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![Grinch](https://www.sqlcalendar.com/grinch.svg)
-
-**Hard**
 
 ---
 
