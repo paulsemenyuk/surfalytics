@@ -26,7 +26,6 @@ We are hosting a gift party and need to ensure every guest receives a gift. Usin
 ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![Grinch](https://www.sqlcalendar.com/grinch.svg) ![GrinchGray](https://www.sqlcalendar.com/grinchGray.svg)
 
 
-
 ---
 
 ### **Hints:**
