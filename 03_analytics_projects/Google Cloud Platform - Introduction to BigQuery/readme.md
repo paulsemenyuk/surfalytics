@@ -1,3 +1,5 @@
+# Google Cloud Platform - Introduction to BigQuery
+
 # Table of Contents
 
 - [Introduction](#introduction)
