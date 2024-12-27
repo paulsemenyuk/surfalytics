@@ -1,7 +1,7 @@
 # Sending vs. Opening Snaps
 ## Snapchat SQL Interview Question
 
-# Snapchat User Activities by Age Group
+### Snapchat User Activities by Age Group
 
 ## Scenario
 You have two tables:
