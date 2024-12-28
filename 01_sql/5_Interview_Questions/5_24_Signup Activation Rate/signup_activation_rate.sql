@@ -19,7 +19,7 @@ WITH cte AS (
   FROM emails
   LEFT JOIN texts
     ON emails.email_id = texts.email_id
-  WHERE texts.signup_action = 'Confirmed'
+      AND texts.signup_action = 'Confirmed'
 )
 SELECT
   ROUND(conf_users::DECIMAL / NULLIF(total_users, 0), 2) AS confirm_rate
