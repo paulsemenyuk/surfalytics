@@ -2,18 +2,23 @@
 
 -- Solution by ChatGPT
 
-WITH monthly_opens AS (
+, extremes AS (
     SELECT
         ticker,
-        TO_CHAR(date, 'Mon-YYYY') AS month_year,  -- PostgreSQL style
-        EXTRACT(YEAR FROM date) AS yr,
-        EXTRACT(MONTH FROM date) AS mn,
-        MAX(open) AS monthly_max_open
-    FROM stock_prices
-    WHERE ticker IN ('AAPL','AMZN','GOOG','META','NFLX')  -- FAANG set
-    GROUP BY
-        ticker,
-        EXTRACT(YEAR FROM date),
-        EXTRACT(MONTH FROM date),
-        TO_CHAR(date, 'Mon-YYYY')
+        month_year,
+        monthly_max_open,
+        MAX(monthly_max_open) OVER (PARTITION BY ticker) AS overall_high,
+        MIN(monthly_max_open) OVER (PARTITION BY ticker) AS overall_low
+    FROM monthly_opens
 )
+SELECT
+    e.ticker,
+    MAX(CASE WHEN e.monthly_max_open = e.overall_high THEN e.month_year END) AS highest_mth,
+    MAX(CASE WHEN e.monthly_max_open = e.overall_high THEN e.monthly_max_open END) AS highest_open,
+    MAX(CASE WHEN e.monthly_max_open = e.overall_low  THEN e.month_year END) AS lowest_mth,
+    MAX(CASE WHEN e.monthly_max_open = e.overall_low  THEN e.monthly_max_open END) AS lowest_open
+FROM extremes e
+GROUP BY
+    e.ticker
+ORDER BY
+    e.ticker;
